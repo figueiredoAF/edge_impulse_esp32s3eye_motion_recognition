@@ -22,6 +22,17 @@ set(include_dirs
     ${MODEL_FOLDER}/tflite-model
     ${MODEL_FOLDER}/model-parameters
     ${EI_SDK_FOLDER}
+    ${EI_SDK_FOLDER}/classifier
+    ${EI_SDK_FOLDER}/dsp
+    ${EI_SDK_FOLDER}/porting
+    ${EI_SDK_FOLDER}/porting/espressif/ESP-NN
+    ${EI_SDK_FOLDER}/porting/espressif/ESP-NN/include
+    ${EI_SDK_FOLDER}/porting/espressif/ESP-NN/src/common
+    ${EI_SDK_FOLDER}/tensorflow
+    ${EI_SDK_FOLDER}/third_party
+    ${EI_SDK_FOLDER}/third_party/ruy
+    ${EI_SDK_FOLDER}/third_party/gemmlowp
+    ${EI_SDK_FOLDER}/third_party/flatbuffers/include
 )
 
 include(${EI_SDK_FOLDER}/cmake/utils.cmake)
